@@ -496,12 +496,13 @@ ul.nav>li>a.active {
 }
 .hero_mockup {
     background: url(../img/mockup-1.png);
+    background-size: 359px 631px;
     background-repeat: no-repeat;
     background-position: 80% center;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 105%;
     height: 100%;
     z-index: -1
 }
@@ -601,6 +602,7 @@ ul.nav>li>a.active {
 }
 .iphone_moc {
     background: url(../img/mockup-2.png) no-repeat scroll center center;
+    background-size: 359px 631px;
     width: 400px;
     height: 100%;
     position: absolute;
