@@ -341,22 +341,22 @@ button {
     transition: all .5s
 }
 .header_section {
-    background-color: transparent;
+    background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1));
     width: 100%;
-    height: 80px;
+    height: 60px;
     z-index: 999;
     position: fixed;
     left: 0;
     top: 0;
-    padding: 10px 0
+    padding: 5px 20px 10px 0px
 }
-.navbar-fixed-top.header_section {
+/*.navbar-fixed-top.header_section {
     background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1));
     box-shadow: 0 16px 28px 0 rgba(0, 0, 0, .05);
-    height: 70px;
+    height: 80px;
     border-bottom: 0;
-    padding: 0
-}
+    padding: 20px 0
+}*/
 .navbar-fixed-top ul.nav>li>a {
     color: #ddd
 }
@@ -365,14 +365,14 @@ button {
 .navbar-fixed-top ul.nav>li.active>a {
     color: #fff
 }
-.logo-light,
+/*.logo-light,
 .navbar-fixed-top .logo-light,
 .logo-dark,
 .navbar-fixed-top .logo-dark,
 .navbar-fixed-top.header_section,
 .header_section {
     transition: all .3s ease-in-out
-}
+}*/
 .navbar {
     border: medium;
     -moz-border-radius: 0;
