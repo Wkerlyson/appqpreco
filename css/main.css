@@ -246,12 +246,13 @@ button {
     transition: all .5s .2s ease
 }
 .loader {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 500px;
+    height: 500px;
     display: block;
     margin: auto;
     margin-top: -30px
@@ -273,8 +274,6 @@ body.loaded #preloader {
     margin: 0 auto
 }
 .battery:after {
-    width: 2px;
-    height: 7px;
     background-color: #fff;
     border-radius: 0 1px 1px 0;
     position: absolute;
@@ -314,9 +313,10 @@ body.loaded #preloader {
     margin-bottom: 15px
 }
 .button_1 {
-    background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1));
+    background-color: #ec6a23;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer ;
     font-size: 12px;
     border-radius: 0;
     line-height: 50px;
@@ -326,7 +326,7 @@ body.loaded #preloader {
     letter-spacing: -.02em
 }
 .button_1:hover {
-    box-shadow: 0 0 24px 5px rgba(255, 255, 255, .3);
+    
     color: #fff
 }
 a,
@@ -886,4 +886,8 @@ ul.nav>li>a.active {
 #scroll-to-top:hover {
     background-color: #282828;
     color: #fff
+}
+
+.franq{
+    color: white
 }
