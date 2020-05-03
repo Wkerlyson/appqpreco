@@ -923,6 +923,16 @@ ul.nav>li>a.active {
     text-decoration: underline
 }
 
+.blog_bottom .contato {
+    color: #feb602;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.blog_bottom .contato:hover {
+    text-decoration: underline
+}
+
 .download_section {
     padding: 150px 0;
     position: relative;
