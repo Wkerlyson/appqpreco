@@ -1091,3 +1091,11 @@ ul.nav>li>a.active {
 .franq {
     color: white
 }
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left !important;
+}
