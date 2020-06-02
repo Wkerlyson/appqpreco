@@ -1,3 +1,6 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^appqpreco.com.br$
-RewriteRule (.*) http://www.appqpreco.com.br/$1 [R=301,L]
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+</IFModule>
