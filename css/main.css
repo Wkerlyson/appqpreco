@@ -1114,3 +1114,16 @@ ul.nav>li>a.active {
      top: 0;
      width: 100%;
   }
+
+  .dev{
+      font-size: 14px;
+      color: #daf2e6;
+  }
+  
+  .dev-link{
+      color: #daf2e6;
+  }
+
+  .dev-link:hover{
+    color: #294a10;
+}
