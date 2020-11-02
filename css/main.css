@@ -270,7 +270,7 @@ button {
 
 .table-cell {
     display: table-cell;
-    vertical-align: middle
+    vertical-align: text-top !important
 }
 
 .overlay {
@@ -290,7 +290,7 @@ button {
 }
 
 .gradiant {
-    background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1));
+    background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1)) !important;
 }
 
 #preloader {
@@ -602,14 +602,17 @@ ul.nav>li>a.active {
 }
 
 .hero_content {
-    color: #fff
+    color: #fff;
+    margin-left: 30%;
+    margin-top: 40px !important;
 }
 
 .hero_mockup {
     background: url(../img/mockup-1.png);
+    left: calc(50% - 200px);
     background-size: 359px 631px;
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 95% center;
     position: absolute;
     left: 0;
     top: 0;
@@ -628,12 +631,78 @@ ul.nav>li>a.active {
     position: absolute;
     left: 0;
     bottom: -30px;
-    z-index: -1;
+    z-index: -3;
     opacity: .2
 }
 
+.top:after {
+    background-image: url(../img/forma_01.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    bottom: 40px;
+}
+
+.forma-top:after {
+    background: url(../img/forma_02.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.forma-par {
+    background: url(../img/forma_04.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin: -10px !important;
+    z-index: 1;
+}
+
+.avatar {
+    background: url(../img/avatar_01.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.avatar-parceiros {
+    background: url(../img/avatar_02.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    
+}
+
 .download_btn a {
-    display: inline-block
+    display: inline-block;
+    margin-left : 15px;
+}
+
+.btn-store{
+    margin-left: 145px;
 }
 
 .download_btn a:hover {
@@ -864,12 +933,15 @@ ul.nav>li>a.active {
     right: -20px
 }
 
-.blog_section {}
+.blog_section {
+    padding-bottom: 0px !important;
+    z-index: -2;
+}
 
 .blog_content {}
 
 .blog_top {
-    position: relative
+    
 }
 
 .blog_top img {
@@ -1126,4 +1198,22 @@ ul.nav>li>a.active {
 
   .dev-link:hover{
     color: #294a10;
+}
+
+.titulo{
+    font-size: 54px;
+}
+
+.subtitulo{
+    font-size: 18px; 
+}
+
+.btn-panel{
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 74em) {
+    .hero_mockup {
+        visibility:hidden;
+    }
 }
