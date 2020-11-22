@@ -127,7 +127,16 @@ button {
 }
 
 .padding {
-    padding: 80px 0
+    padding: 80px 10px !important
+}
+
+.padding-top {
+    padding-top: 80px
+}
+
+.padding-top-content{
+    padding-top: 2% !important;
+    margin-right: 20px
 }
 
 .no-padding {
@@ -401,6 +410,20 @@ body.loaded #preloader {
     letter-spacing: -.02em
 }
 
+.submit_panel_fran {
+    background-color: #017bb1;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 0;
+    line-height: 50px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 25px;
+    letter-spacing: -.02em
+}
+
 .button_1:hover {
     color: #fff
 }
@@ -428,6 +451,40 @@ button {
     padding: 5px 20px 10px 0px
 }
 
+.header_section_parceiros {
+    background: linear-gradient(to right, #ec6a23, #d44f07);
+    width: 100%;
+    height: 65px;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 5px 20px 10px 0px
+}
+
+.header_section_franq {
+    background: #017bb1;
+    width: 100%;
+    height: 65px;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 5px 20px 10px 0px
+}
+
+.franqueados{
+    background: linear-gradient(to right, #ec6a23, #d44f07);
+}
+
+.txt_branco{
+    color: #ffffff !important
+}
+
+.btn_painel{
+    background-color: #ffb700 !important;
+    color: #ffffff !important;
+}
 
 /*.navbar-fixed-top.header_section {
     background: linear-gradient(to right, rgba(0, 168, 90, 1), rgba(0, 168, 50, 1));
@@ -668,7 +725,53 @@ ul.nav>li>a.active {
     width: 100%;
     height: 100%;
     margin: -10px !important;
-    z-index: 1;
+    z-index: 2;
+}
+
+.parceiro_top {
+    background-image: url(../img/forma_5.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin-right: 40px;
+    z-index: -1;
+}
+
+.parceiro_bottom {
+    background: url(../img/forma_06.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    z-index: -1;
+}
+
+.franq_top {
+    background-image: url(../img/forma_07.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    content: "";
+    margin-top: -16px;
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+    z-index: -1;
+}
+
+.franq_top_sec {
+    background-image: url(../img/forma_08.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -20px !important;
+    z-index: -1;
 }
 
 .avatar {
@@ -1121,6 +1224,18 @@ ul.nav>li>a.active {
     border-radius: 50%
 }
 
+.social_link_parc li a {
+    background-color: #ec6a23 !important;
+}
+
+.social_link_franq li a {
+    background-color: #017bb1 !important;
+}
+
+.orange_parceiro{
+    background: #ec6a23 !important;
+}
+
 .social_link li a:hover {
     box-shadow: 0 16px 28px 0 rgba(0, 0, 0, .25)
 }
@@ -1132,6 +1247,22 @@ ul.nav>li>a.active {
     text-align: center;
     padding: 30px 0
 }
+
+.footer_section_parceiros {
+    background: linear-gradient(to right, #ec6a23, #d44f07);
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0
+} 
+
+.footer_section_franq {
+    background: #017bb1;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0
+} 
 
 .footer_section p {
     text-transform: uppercase;
@@ -1153,6 +1284,10 @@ ul.nav>li>a.active {
     bottom: 50px;
     right: 50px;
     z-index: 999
+}
+
+.color_franq{
+    background: #017bb1 !important;
 }
 
 #scroll-to-top:hover {
